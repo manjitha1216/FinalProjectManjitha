@@ -58,4 +58,7 @@ install jenkins and docker using in the instance below links
 https://www.jenkins.io/doc/book/installing/docker/#setup-wizard
 https://docs.docker.com/engine/install/ubuntu/#uninstall-docker-engine  
 
-install all the plugins
+check the jenkins using your public ip (eg: http://35.159.17.214:8080/)
+install all the necessary plugins and do the configurations.
+
+
