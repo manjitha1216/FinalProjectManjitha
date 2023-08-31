@@ -12,8 +12,8 @@ Task 1: Create a Terraform code for Security Group and EC2 Instance
 Prepare the terraform   
 As part of this, we should setup
 
-Terraform
-VS Code
-AWSCLI
+Terraform  
+VS Code  
+AWSCLI  
 
 
