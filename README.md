@@ -62,6 +62,9 @@ check the jenkins using your public ip (eg: http://35.159.17.214:8080/)
 install all the necessary plugins and do the configurations.
 
 dashboard-> Manage Jenkins->System -> make the changes under "Publish over SSH" -> update your key and SSH Servers settings
-dashboard -> create a new job -> go to configurations -> add your github project url -> select Git under source code management -> 
+dashboard -> create a new job -> go to configurations -> add your github project url -> select Git under source code management and give git repository url -> check "GitHub hook trigger for GITScm polling" under build triggers -> check "Send files or execute commands over SSH after the build runs" under build environment -> give name for the server -> add the source file set (eg: **/*.html) -> give the remote directry (eg:/) -> apply and save
+
+Make sure to give permission for the users in html directory   
+Then Build the project and check if index.html file is there inside the instance and verify it using your public ip
 
 
