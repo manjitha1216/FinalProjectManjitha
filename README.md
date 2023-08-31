@@ -16,18 +16,23 @@ Terraform
 VS Code  
 AWSCLI  
 
-To create an ec2 instance, We should connect to aws account first   
-In terraform file main.tf we can connect to AWS cloud using 'provider block' to create an ec2 instance, should use 'resource block'
-In the provider block, mention the region name
+*To create an ec2 instance, We should connect to aws account first   
+*In terraform file main.tf we can connect to AWS cloud using 'provider block' to create an ec2 instance, should use 'resource block'
+*In the provider block, mention the region name
 provider "aws" {
   region = "eu-central-1"
 }
-In the resource block, We should mention information to create an instance.  
-To create an EC2 instance (object), we should have the below information    
+*In the resource block, We should mention information to create an instance.  
+*To create an EC2 instance and security group, we should have the below information    
 Instance name  
 Operating system (AMI)  
 instance Type  
 Keypair  
-VPC  
+VPC
 
+Use the documentation
+https://registry.terraform.io/providers/hashicorp/aws/latest
+
+
+Task 2: Use Ansible for configuring EC2 (Install Nginx or Apache)  
 
