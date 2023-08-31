@@ -61,4 +61,7 @@ https://docs.docker.com/engine/install/ubuntu/#uninstall-docker-engine
 check the jenkins using your public ip (eg: http://35.159.17.214:8080/)
 install all the necessary plugins and do the configurations.
 
+dashboard-> Manage Jenkins->System -> make the changes under "Publish over SSH" -> update your key and SSH Servers settings
+dashboard -> create a new job -> go to configurations -> add your github project url -> select Git under source code management -> 
+
 
