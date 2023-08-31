@@ -1,9 +1,7 @@
 # FinalProjectManjitha
-Project Overview
+Project Tasks
 
-Create a Terraform code for:  
-Security Group  
-EC2 Instance  
+Create a Terraform code for Security Group and EC2 Instance  
 Use Ansible for configuring EC2 (Install Nginx or Apache)  
 Create a GitHub Repository   
 Prepare an index.html file  
